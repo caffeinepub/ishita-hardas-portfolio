@@ -1,5 +1,6 @@
 import { Toaster } from "@/components/ui/sonner";
 import AboutSection from "./components/AboutSection";
+import AnimatedDivider from "./components/AnimatedDivider";
 import ContactSection from "./components/ContactSection";
 import EducationSection from "./components/EducationSection";
 import ExperienceSection from "./components/ExperienceSection";
@@ -17,13 +18,21 @@ export default function App() {
       <Navbar />
       <main>
         <HeroSection />
+        <AnimatedDivider />
         <StatsBar />
+        <AnimatedDivider />
         <AboutSection />
+        <AnimatedDivider />
         <ExpertiseSection />
+        <AnimatedDivider />
         <ExperienceSection />
+        <AnimatedDivider />
         <ProjectsSection />
+        <AnimatedDivider />
         <EducationSection />
+        <AnimatedDivider />
         <ToolsSection />
+        <AnimatedDivider />
         <ContactSection />
       </main>
       <Footer />

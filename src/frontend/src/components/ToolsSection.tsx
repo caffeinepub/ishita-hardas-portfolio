@@ -45,19 +45,17 @@ export default function ToolsSection() {
           </p>
         </div>
 
-        {/* Inline tools image - brighter than before */}
-        <div className="mb-12 rounded-2xl overflow-hidden relative">
+        {/* Inline tools image - full uncropped, 60vw centered */}
+        <div className="mb-12 flex justify-center">
           <img
             src="/assets/generated/tools-inline.dim_800x450.jpg"
             alt="Marketing tools and technology stack"
-            className="w-full max-h-52 object-cover object-center"
-            style={{ filter: "brightness(0.88) saturate(1.15)" }}
-          />
-          <div
-            className="absolute inset-0 rounded-2xl"
+            className="rounded-2xl"
             style={{
-              background:
-                "linear-gradient(to right, oklch(0.08 0.005 285 / 0.35) 0%, transparent 40%, transparent 60%, oklch(0.08 0.005 285 / 0.35) 100%)",
+              width: "60vw",
+              height: "auto",
+              display: "block",
+              filter: "brightness(0.92) saturate(1.15)",
             }}
           />
         </div>
